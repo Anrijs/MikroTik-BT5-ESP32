@@ -1,0 +1,49 @@
+#######################################
+# Syntax Coloring Map For Mikrotik BT5
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MikrotikBeacon	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+isValid	KEYWORD2
+hasTemperature	KEYWORD2
+unpack	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+version	KEYWORD2
+userdata	KEYWORD2
+salt	KEYWORD2
+acceleration	KEYWORD2
+temperature	KEYWORD2
+uptime	KEYWORD2
+raw	KEYWORD2
+flag_reed_switch	KEYWORD2
+flag_accel_tilt	KEYWORD2
+flag_accel_free_fall	KEYWORD2
+flag_impact_x	KEYWORD2
+flag_impact_y	KEYWORD2
+flag_impact_z	KEYWORD2
+flags	KEYWORD2
+battery	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+BT5_FLAG_REED_SWITCH	LITERAL1
+BT5_FLAG_ACCEL_TILT	LITERAL1
+BT5_FLAG_ACCEL_FREE_FALL	LITERAL1
+BT5_FLAG_IMPACT_X	LITERAL1
+BT5_FLAG_IMPACT_Y	LITERAL1
+BT5_FLAG_IMPACT_Z	LITERAL1
+BT5_FLAG_IMPACT	LITERAL1
